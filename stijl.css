@@ -1,0 +1,24 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #081725;
+  color: #f1fafb;
+  line-height: 1.6;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: clamp(1rem, 5vw, 4rem); }
+main { max-width: 46rem; margin: auto; }
+header { padding: clamp(1rem, 5vw, 3rem) 0 1.25rem; }
+h1 { margin: 0; font-size: clamp(2.5rem, 9vw, 4.75rem); line-height: 1.05; }
+h2 { line-height: 1.25; }
+header p { max-width: 38em; }
+.proef { color: #ffb267; font-weight: 700; margin-bottom: .55rem; }
+section { background: #122c3e; border: 1px solid #2b5060; border-radius: 1rem; margin: 1rem 0; padding: clamp(1rem, 4vw, 1.8rem); }
+section h2:first-child { margin-top: 0; }
+ol { padding-left: 1.4rem; }
+li + li { margin-top: .55rem; }
+a { color: #77e8df; }
+#apk { background: #77e8df; color: #081725; padding: .8rem 1.2rem; border-radius: .65rem; font-weight: 800; display: inline-block; }
+#apk[hidden] { display: none; }
+a:focus-visible { outline: 3px solid #ffb267; outline-offset: 4px; }
+#controle { overflow-wrap: anywhere; }
